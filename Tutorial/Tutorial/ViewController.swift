@@ -15,9 +15,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+
+    @IBOutlet weak var startButton: UIButton!
     @IBAction func touchAction(_ sender: UIButton) {
-        label.text = "Hello, world!"
+        if label.text == "Hello, world!"{
+            label.text = "원위치"
+        } else {
+            label.text = "Hello, world!"
+        }
     }
-    
 }
 
