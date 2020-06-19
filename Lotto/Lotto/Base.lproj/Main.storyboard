@@ -31,7 +31,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="1RB-RD-adN">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="lottoCell" id="1RB-RD-adN" customClass="LottoCell" customModule="Lotto" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1RB-RD-adN" id="Z9p-bN-H1s">
@@ -82,6 +82,14 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="number1" destination="gji-6b-bG1" id="uFU-di-V2M"/>
+                                            <outlet property="number2" destination="415-07-OaR" id="UvV-uY-rBT"/>
+                                            <outlet property="number3" destination="1Wq-ey-t75" id="FSz-1q-DDF"/>
+                                            <outlet property="number4" destination="R9H-d6-umk" id="Nt8-Kk-23a"/>
+                                            <outlet property="number5" destination="1yj-VS-QmO" id="eN0-lC-1XV"/>
+                                            <outlet property="number6" destination="YJR-Vd-mvc" id="DJp-vi-cX9"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>

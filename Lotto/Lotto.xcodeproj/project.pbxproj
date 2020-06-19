@@ -14,6 +14,7 @@
 		F4A0FCCF249CE05D0077D6BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A0FCCE249CE05D0077D6BE /* Assets.xcassets */; };
 		F4A0FCD2249CE05D0077D6BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A0FCD0249CE05D0077D6BE /* LaunchScreen.storyboard */; };
 		F4A0FCDD249CE05D0077D6BE /* LottoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A0FCDC249CE05D0077D6BE /* LottoTests.swift */; };
+		F4A0FCE8249CF9420077D6BE /* LottoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A0FCE7249CF9420077D6BE /* LottoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		F4A0FCD8249CE05D0077D6BE /* LottoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A0FCDC249CE05D0077D6BE /* LottoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoTests.swift; sourceTree = "<group>"; };
 		F4A0FCDE249CE05D0077D6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A0FCE7249CF9420077D6BE /* LottoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				F4A0FCC5249CE05A0077D6BE /* AppDelegate.swift */,
+				F4A0FCE7249CF9420077D6BE /* LottoCell.swift */,
 				F4A0FCC7249CE05A0077D6BE /* SceneDelegate.swift */,
 				F4A0FCC9249CE05A0077D6BE /* ViewController.swift */,
 				F4A0FCCB249CE05A0077D6BE /* Main.storyboard */,
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A0FCE8249CF9420077D6BE /* LottoCell.swift in Sources */,
 				F4A0FCCA249CE05A0077D6BE /* ViewController.swift in Sources */,
 				F4A0FCC6249CE05A0077D6BE /* AppDelegate.swift in Sources */,
 				F4A0FCC8249CE05A0077D6BE /* SceneDelegate.swift in Sources */,
