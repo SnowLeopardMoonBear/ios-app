@@ -16,6 +16,7 @@
 		F473ABF3249DDC0E0012579B /* PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F473ABF2249DDC0E0012579B /* PracticeTests.swift */; };
 		F473ABFE249DDC0E0012579B /* PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F473ABFD249DDC0E0012579B /* PracticeUITests.swift */; };
 		F473AC0C249DE0A00012579B /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F473AC0B249DE0A00012579B /* DetailController.swift */; };
+		F473AC0E249DFA5D0012579B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F473AC0D249DFA5D0012579B /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F473ABFD249DDC0E0012579B /* PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeUITests.swift; sourceTree = "<group>"; };
 		F473ABFF249DDC0E0012579B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F473AC0B249DE0A00012579B /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		F473AC0D249DFA5D0012579B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				F473ABDB249DDC0C0012579B /* AppDelegate.swift */,
 				F473ABDD249DDC0C0012579B /* SceneDelegate.swift */,
 				F473ABDF249DDC0C0012579B /* ViewController.swift */,
+				F473AC0D249DFA5D0012579B /* TableViewController.swift */,
 				F473ABE1249DDC0C0012579B /* Main.storyboard */,
 				F473AC0B249DE0A00012579B /* DetailController.swift */,
 				F473ABE4249DDC0E0012579B /* Assets.xcassets */,
@@ -265,6 +268,7 @@
 				F473AC0C249DE0A00012579B /* DetailController.swift in Sources */,
 				F473ABE0249DDC0C0012579B /* ViewController.swift in Sources */,
 				F473ABDC249DDC0C0012579B /* AppDelegate.swift in Sources */,
+				F473AC0E249DFA5D0012579B /* TableViewController.swift in Sources */,
 				F473ABDE249DDC0C0012579B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

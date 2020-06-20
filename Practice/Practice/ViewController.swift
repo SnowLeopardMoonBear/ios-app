@@ -17,7 +17,14 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(controller, animated: true)
         }
     }
-   
+    @IBAction func Move_TableView(_ sender: Any) {
+        // 1. 컨트롤러를 찾아주고
+        if let controller = self.storyboard?.instantiateViewController(withIdentifier: "TableViewController"){
+        // 2. 내비게이션 컨트롤러에 push 해준다
+        self.navigationController?.pushViewController(controller, animated: true)
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
