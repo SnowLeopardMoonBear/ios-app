@@ -20,7 +20,7 @@ class TableViewController : UIViewController, UITableViewDataSource, UITableView
     // 2. 무엇을 띄울지
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // 코드를 보고 추론 가능하지만 셀을 5번 반복한다
-        let cell = UITableViewCell.init(style: .default, reuseIdentifier: "tableCellType1")
+        let cell = UITableViewCell.init(style: .default, reuseIdentifier: "Type1")
         cell.textLabel?.text = "\(indexPath.row + 5)"
         return cell
     }
