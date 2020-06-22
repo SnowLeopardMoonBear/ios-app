@@ -95,8 +95,11 @@
 - TableViewController 클래스 만들 때 왜 UIViewController, UIViewController, UITableViewDataSource 처럼 여럿이 붙을까? 다중상속인가?
   -  콜론 뒤는 원래 상속받을 부모클래스가 올 자리지만 다중상속은 아니다. UITableViewDataSource, UITableViewDelegate은 프로토콜이고, Swift에서 상속받을 위치에 프로토콜이 오면 자동으로 프로토콜로 인식하고 처리한다.
   - Xcode에서 개체 이름 클릭시 제공하는 도움말을 잘 참고하자. 공식 Documentation이 담겨있다.
-- 왜 view controller class 안에서 동일한 이름의 함수를 여러 번 반복해 정의할까(예: tableView)
+- 왜 view controller class 안에서 동일한 이름의 메서드를 여러 번 반복해 정의할까(예: tableView)
   - 또, 그리고 그걸 왜 변수에 값 선언하는 형태가 아니라 함수형으로 넣어줄까?
+  - 일단은 같은 이름을 갖지만 전혀 다른 내용의 메서드를 반복 정의하는게, Objective-C에서 내려온, 메서드의 값을 요청하는 주체를 명시하기 위한 코딩 컨벤션
+  - 그리고 메서드 이름이 tableView뿐인게 아니라, tableView(_:numberOfRowsInSection:) 같은 형태이다
+  - 실제로 tableView 객체가 테이블에 필요한 row 수와 셀 내용 등을 요청하고 받아간다
 - DataSource, Delegate는 무엇이지?
   - DataSource는 데이터를 받아 뷰를 그려줌
   - Delegate는 어떤 행동에 대한 동작을 제시 
